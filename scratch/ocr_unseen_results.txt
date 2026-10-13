@@ -1,0 +1,633 @@
+============================================================
+EXTRACTING: aayu pdf.pdf
+Total Pages: 7
+--- Page 1 (24 OCR lines) ---
+  Original reports + explainable
+  CONNECTED CAR
+  oversight
+  AAYU 2026·IDEA PRESENTATION
+  Reports
+  KI
+  Patient
+  Healthcare / MedTech — proposed
+  UNDERSTAND·ORGANIZE·CONNECT
+  AAYU-WF9D
+  MediConnect Al
+  Software
+  S Square
+  and connected patient care
+  T01
+  Problem Statement Title
+  Problem Statement ID
+  MediConnect Al · AAYU 2026 Idea Deck
+  PS Category
+  Team Name
+  MediConnect
+  Team ID
+  Theme
+  A
+--- Page 2 (34 OCR lines) ---
+  Authorized records, source-linked summaries,re
+  Profiles, staff, schedules and role-based administ
+   Flag possible duplicate charges and arithmetic er
+  Cor
+  Rec
+  HOSPITAL MODULE
+  PATIENT MODULE
+  DOCTOR MODULE
+  BILLING MODULE
+  WHAT WE WILL BUILD
+  Approve, correct or reject.
+  Doctor in control
+  prescriptions.
+  MEDICONNECT AI
+  clarification.
+  One healthcare platform for report explanations,
+  A dated timeline brings original reports, compatible test trends
+  Appointments, follow-ups and itemized bill checks connect the 
+  Rules before reasoning
+  Values and units are validated.
+   OCR + structured extraction turn PDF / image reports into
+  Reports patients can understand
+  simple, source-grounded explanations.
+  Care workflows in one place
+  History doctors can review
+  report to the next care step.
+  Original evidence stays visible.
+  MediConnect Al · AAYU 2026 Idea Deck
+  PROPOSED SOLUTION
+  WHYWESTANDOUT
+  Source-linked Al
+  MediConnect
+  AI
+  KI
+--- Page 3 (47 OCR lines) ---
+  Profiles
+  appoint
+  Origina
+  Encrypt
+  NOAUTONOMOUSDIAGNOSIS
+  05 Doctor
+  review
+  LLM uses verified source data
+  ZONE 3·AI+VALIDATION
+  Values, units, ranges, dates
+  GROUNDED SUMMARY
+  TEXTEXTRACTION
+   Digital PDF text / OCR
+  TECHNICALAPPROACH
+  PaddleOCR / Tesseract + LLM
+  VALIDATEDATA
+  04Explain
+  + timeline
+  日
+  Yes
+  Data
+  valid?
+  No → flag issue, correct data or re-upload
+  ZONE2·APPLICATIONLAYER
+  Python +FastAPl·Docker
+  03OCR +
+  extract
+  REPORT SERVICE
+  CARESERVICE
+  APIGATEWAY
+  BILL REVIEW
+  02Upload
+  report
+  END-TO-END PROCESS
+  ZONE 1·USERS & PORTALS
+  H
+  Hospital admin
+  HTTPS/role-based access
+  Patient portal
+  Doctor portal
+  MediConnect
+  01 Consent
+  React + Tailwind
+  uibol +
+  AI
+  曲
+  8
+--- Page 4 (33 OCR lines) ---
+  Confidence gates + source-linked findings + dc
+  Consent, least privilege, encryption, audit and
+  Illustrativeallocation—notmeasure
+  Clinical / integration readiness
+  A focused MvP first; advanced features follow demonstrated safety and usefulness.
+  20%Foundation
+  35% Al reports
+  CHALLENGES & STRATEGIES
+  Proposed development effort
+  FEASIBILITY ANDVIABILITY
+  OCR/ Al reliability
+  Privacy & access
+  integrations.
+  Validate/extend
+  op  auaw  uoeueidxa papunoa  poidn  uo
+  0
+  Review + booking
+  Complete minimum viable demo
+  3
+  modularfirst implementation.
+  Testable, not assumed
+  Buildable core stack
+  VIABILITY&ROADMAP
+  Reports + Al
+  booking correctness.
+  MediConnect Al · AAYU 2026 Idea Deck
+  review → booking.
+  2
+  FEASIBILITY
+  MediConnect
+  Roles + consent
+  AI
+  1
+--- Page 5 (50 OCR lines) ---
+  Expected value for patients, clinicians and hospitals — all improvements require pilot measurement.
+  ECONOMICVA
+  Transparent bill re
+  clarify duplicate er
+  sha
+  OUP
+  COI
+  Al assists; cl
+  Consent and
+  Neverdelay
+  errors.
+  schedules and bill queries.
+  IMPACTANDBENEFITS
+  Coordinaterecords,
+  p0
+  03HOSPITAL
+  Medical trend demo: HbA1c (%)
+  inr
+  record-searchandconsultation
+  WORKFLOWVALUE
+  Apr
+  preparation work.
+  Jan
+  Review original findings
+   and organized history.
+  5
+  5.
+  5
+  02 DOCTOR
+  9887766
+  Permissions
+  100
+  Plain-language explanations and 
+  STAKEHOLDERS &IMPACT
+  Proposed validation targets (%)
+  Grounding
+  Upload once; understand
+  MediConnectAl·AAYU 2026IdeaDeck
+  SOCIAL VALUE
+  and revisit reports.
+  understanding.
+  01 PATIENT
+  Extraction
+  MediConnect
+  95
+  AI
+  000
+  80
+  4
+  20
+--- Page 6 (17 OCR lines) ---
+  PROJECT
+  Scan to open the supp
+  RESEARCH ANDREFERENCES
+  Synthetic / de-identified records · original-vs-extracted checks · summary grounding ·
+  Official ecosystem context; integrations require permission.
+    a    s  y
+  ABDM ·Indian digital-health ecosystem
+  fastapi.tiangolo.com·postgresql.org/docs·paddleocr.ai
+  HL7 FHIR·Healthcare interoperability
+  who.int/publications/i/item/9789240029200
+  Implementation documentation
+  EVIDENCE&TESTINGPLAN
+  hl7.org/fhir/overview.html
+  MediConnect Al · AAYU 2026 Idea Deck
+  abdm.gov.in
+  MediConnect
+  AI
+--- Page 7 (16 OCR lines) ---
+  DOCTOR-REVIEWED
+  CONCEPT → WORKING MVP →→
+  K
+  THANK YOU
+  FOLLOW UP
+  One upload → organized history → doctor-reviewed care
+  Clearer understanding.
+  MediConnect Al
+  Connected healthcare.
+  REVIEW
+  Smarter reports.
+  EXPLAIN
+  MediConnect Al · AAYU 2026 Idea Deck
+  MediConnect
+  UPLOAD
+  AI
+============================================================
+EXTRACTING: hlo.pdf
+Total Pages: 2
+--- Page 1 (97 OCR lines) ---
+  Roll NO
+  Student Nome
+  student Name:
+  Wook Mou
+  Roll No:
+  Experiment No.:
+  Date：
+  govermmert
+  Coeak ociuntviaporto ofhvie
+  Crediental
+  accoxdina
+  Dd
+  Jusex/Pahiend
+  MaccuptceekkiaSSo Ld & Dedh
+  Deren
+  Pohent /Docoa
+  dash boa rd
+  5
+  O
+  Moshital
+  Bnbile
+  SeexchDa/Heile
+  Schem
+  buteubnterey
+  uldake
+  inbornobbutnot
+  Dppainkment frdioy
+  edif+
+  →UploadRehotlike
+  ←
+  Tmeges
+  Aphlyorauare
+  ascheefoh
+  Ond
+  relaled symphnvicvoice
+  patentorhospitalxeatidtomedica!
+  &trf
+  Fhatbot
+  SgpestAnolyse
+  JNIVERSE
+  zepoxtdecd
+  lonyogk to Engisy
+  AAralyrer(foxdoc-to8)
+  Dochyseekacomtvia
+  analyzedtnealseoort
+  Daolicmea.
+  Gndcuuentpables
+  andcseate afina/
+  te pojt foxdoctosto
+  Tsavetime
+  Hoshilal
+  DoctoxCan Editsepoots
+  Pepo6osed
+  Creakvia
+  licen
+  talino
+  9findthecpp pintmeus
+  pahienthistory
+  gtentogih
+  Profile
+  →MuItlamguogy
+  山
+  .and
+  bylicencg
+  putientdata
+  onc languagy
+  Cnwet
+  psofile
+  Bins uhpoinnt
+  medical
+  ATAnalyzes
+  山
+  erzange.shedule fos
+  o6pabient
+  Hospitalnta
+  4ConvertthePatientdetail
+  Updatebil
+  Dot appointme ts.
+  [bu3]
+  L
+  into summagles fosm .
+  Updute
+  HospitalHhg
+  000011
+  timeline
+  availabelity
+  ofmedkin
+  billsdeeilsl
+  9SendthcData ofpatient
+  Updode.
+  medi col
+  Rahoxts
+  to the Dotcos.i#oe
+  →applygortscheme
+  PdgeNo.
+  PageNo.
+  Scanned with OKEN Scanner
+--- Page 2 (66 OCR lines) ---
+  te canSeaxhfooHospitals
+  Patient
+  Xapep huoae 80 .
+  that axe neax 9
+  cxeat account
+  fix.appenment
+  Uplod e
+  thgt can possible
+  Re poots.
+  ('hxough Hospita)oo Doctoss both
+  Annalized
+  Repoots th8agh
+  A-1
+  Pesmiit to ulless theoe
+  ysu ggest it heed
+  Pojviousdato
+  yExplain his
+  hot
+  laigoed uoxan) s
+  Yhmay+ Sluayuhs0a
+  Hlso  give
+  fixapn.
+  Loice ox text
+  only _ possible
+  idea abut
+  HospitaI finds
+  the
+  illness
+  theppoihmerl.
+  Jhexe are_aA1
+  fganalyzed thep8oblem
+  analyze
+   yt aha lyreil the
+  aloa+theanpoinment
+  alreportsand
+  time
+  cursent pioblem
+  a
+  aloattmedoito
+  Yand create a
+  floderu
+  fox doctythat
+  +odoctoinOne page
+  om30
+  gsthetime
+  docto.
+  Dotox
+  yCon salt with natient
+  Pafrentpoc.
+  ()pdate_hew meditions.
+  UpdateCpdut inheth.
+  A)P 8ocessihg.
+  lzpdate give Sug ges tion.
+  Me dical Yime lin e
+  gofoxmedition
+  Gaps-+Cont badictions
+  Pyntmedica)
+  +Red F1ags
+  Hgive medition
+  山
+  pdafebi
+  ()also-timtable-
+  Soue1inxednfoy
+  os pos -0? 
+  Bxief
+  ScannedwithOKENScanner
+============================================================
+EXTRACTING: WhatsApp Image 2026-10-09 at 10.17.07 PM.jpeg
+--- Image (142 OCR lines) ---
+  MediAl
+  YourMedical
+  Reports,OurAl
+  BetterHealthcare.
+  Al-Powered Healthcare Assistant
+  ConnectsPatients,
+  Doctors&Hospitals
+  SmarterReports
+  BetterUnderstanding
+  HealthierTomorrow
+  Upload Report
+  Al Processing
+  Digital Records
+  4
+  DoctorReview
+  5
+  HealthcareServices
+  自
+  AISummary
+  田
+  BookAppointment
+  Validation
+  Reports
+  Blood Test Report
+  OCR
+  12Apr2025
+  Key Findings
+  ?
+  History
+  Recommendations
+  Prescriptions
+  PDF
+  X-Ray Report
+  28Jan2025
+  OriginalReport
+  Data
+  Analysis&
+  Prescriptions
+  Extraction
+  Explanation
+  BillingReview
+  茴
+  Appointments
+  MRI Report
+  10Nov2024
+  Follow-ups
+  Patientuploadsmedicalreports
+  Alextracts data,checksaccuracy
+  Reportsarestoredsafelywith
+  Doctorviewsreportshistoryand
+  Bookappointments,getreminders,
+  (PDF/Image)securely.
+  and generates simple explanations.
+  a complete medical history timeline.
+  Al summary forbetter decisions.
+  checkprescriptionsandreviewbills.
+  KeyFeatures
+  PatientModule
+  DoctorModule
+  Hospital Module
+  BillingModule
+  Register&login
+  Viewpatienthistory
+  ·Manage hospital profile
+  Itemizedbillreview
+  Uploadreports
+  Al-assisted summary
+  ·Doctor&staff management
+  Detect duplicate charges
+  Al Report Analysis
+  SecureStorage
+  Medical Timeline
+  Appointment
+  Booking
+  ViewAlexplanation
+  Add clinical notes
+  Patient records
+  ·Find inconsistencies
+  Accessmedical history
+  Prescriptions&follow-ups
+  ·Billing information
+  Report concerns
+  Bookappointments
+  Manage appointments
+  Verifiedaccreditation
+  Review summary
+  DataSecurity
+  Multilingual
+  Voice&Text
+  Hospital
+  Support
+  Input
+  Management
+  SystemArchitecture
+  Advantages
+  Challenges&Limitations
+  AI&OCR
+  For Patients
+  For Hospitals
+  Access to reports anytime
+  Organizedrecords
+  Almay make mistakes
+  LLM+OCR（Tesseract/PaddleOCR）
+  Easyto understand medicalterms
+  Improved workflow
+  A
+  Reference ranges vary
+  Simple appointment booking
+  Billing transparency
+  A
+  Not a replacement for doctors
+  HTTPS
+  Database
+  Emergencycare should notbedelayed
+  Frontend
+  Backend
+  Deployment
+  PostgreSQL
+  ForDoctors
+  For Healthcare System
+  A
+  Requirespropersecurity and consent
+  React.js+Tailwind CSS
+  Python+FastAPI
+  Docker+CloudServer
+  Fasterrecordreview
+  ·Continuity of care
+  Needs approval for real-world deployment
+  Patient|Doctor|Admin
+  APIs|Authentication|Logic
+  Secure|Scalable|Reliable
+  Better patient history
+  Betterdataorganization
+  DocumentStorage
+  Moretimeforconsultation
+  Future integrations
+  MediAl is a proposed project designed
+  Private&Encrypted
+  to assist healthcare professionals and patients.
+  It does not providemedical diagnosis or treatment.
+  MediAl|
+  SmarterTechnology→HealthierCommunities
+============================================================
+EXTRACTING: WhatsApp Image 2026-10-09 at 10.19.26 PM.jpeg
+--- Image (86 OCR lines) ---
+  22:17
+    51 57%
+  m
+  MM#
+  MMedivora Al
+  品 Dashboard
+  Good morning,Dr.Alex
+  Total Patients
+  Appointments
+  Critical Alerts
+  Upcoming Appointn
+  Patients
+  2,458
+  3个12.5%
+  63
+  8.3%
+  12
+  44.2%
+  Sarah Johnson
+  10:00AM
+  Cardiology Consutation
+  vs last month
+  vs lastmonth
+  vs last month
+  Appointments
+  Heart
+  James Williams
+  11:30AM
+  Follow-up Checkup
+  Upc
+  Health Records
+  VitalsOverview
+  Today14May2025
+  OliviaBrown
+  02:00PM
+  Blood Test
+  AlInsights
+  Upcon
+  Lungs
+  O
+  Good
+  Heart Rate
+  BloodPressure
+  aBx
+  Temperature
+  Michael Davis
+  03:30PM
+  ?
+  Diagnostics
+  72bpm
+  120/80
+  98%
+  36.6℃
+  X-Ray Scan
+  Upcoming
+  Normal
+  mmHg
+  Normal
+  Treatments
+  Muscles
+  Strong
+  120
+  Al Health Insights New
+  Medications
+  72bpm
+  80
+  Our Al has detected3important
+  O
+  insights foryour review
+  Reports
+  Mental
+  40
+  Stable
+  ViewInsights→
+  Analytics
+  12AM
+  4AM
+  8AM
+  12PM
+  4PM
+  8PM
+  12AM
+  Overall Health Score
+  Last updated:5 min ago
+  Reply to ChatGPT
+  小

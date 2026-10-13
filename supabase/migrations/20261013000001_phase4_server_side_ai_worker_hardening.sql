@@ -173,7 +173,7 @@ BEGIN
         COALESCE(p_summary->'citations', '[]'::jsonb),
         COALESCE(p_summary->'red_flags', '[]'::jsonb),
         COALESCE(p_summary->'gaps', '[]'::jsonb),
-        'DRAFT'::public.review_status
+        'DRAFT'::public.summary_review_status
     );
 END;
 $$;
