@@ -1,0 +1,36 @@
+{
+  "name": "@medi-connect/mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "expo": {
+    "install": {
+      "exclude": [
+        "typescript"
+      ]
+    }
+  },
+  "dependencies": {
+    "@medi-connect/shared": "workspace:*",
+    "@supabase/supabase-js": "^2.49.1",
+    "expo": "~57.0.28",
+    "expo-secure-store": "~57.0.4",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/runtime": "^8.0.7",
+    "@types/react": "~19.2.4",
+    "typescript": "^5.7.3"
+  },
+  "private": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "medi-connect-ai-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Medi Connect AI — AI-assisted medical reports and patient care platform (Web + Mobile)",
+  "scripts": {
+    "dev:web": "pnpm --filter @medi-connect/web dev",
+    "dev:mobile": "pnpm --filter @medi-connect/mobile start",
+    "build:web": "pnpm --filter @medi-connect/web build",
+    "build:shared": "pnpm --filter @medi-connect/shared build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

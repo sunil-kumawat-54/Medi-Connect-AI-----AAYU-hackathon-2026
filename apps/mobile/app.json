@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Medi Connect AI",
+    "slug": "medi-connect-ai",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mediconnect.ai"
+    },
+    "android": {
+      "package": "com.mediconnect.ai"
+    }
+  }
+}

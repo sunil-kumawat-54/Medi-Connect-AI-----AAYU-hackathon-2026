@@ -1,0 +1,127 @@
+{
+  "files": {
+    "report_01_metabolic.pdf": {
+      "type": "digital_pdf",
+      "category": "Metabolic Panel",
+      "date": "10-10-2026",
+      "expected_status": "NEEDS_REVIEW",
+      "expected_biomarkers": {
+        "Fasting Blood Glucose": {
+          "value": 142.0,
+          "unit": "mg/dL",
+          "severity": "ELEVATED"
+        },
+        "HbA1c Glycated Hgb": {
+          "value": 7.8,
+          "unit": "%",
+          "severity": "ELEVATED"
+        }
+      }
+    },
+    "report_02_lipid.pdf": {
+      "type": "digital_pdf",
+      "category": "Lipid Profile",
+      "date": "11-10-2026",
+      "expected_status": "NEEDS_REVIEW",
+      "expected_biomarkers": {
+        "Total Cholesterol": {
+          "value": 245.0,
+          "unit": "mg/dL",
+          "severity": "ELEVATED"
+        },
+        "HDL Cholesterol": {
+          "value": 42.0,
+          "unit": "mg/dL",
+          "severity": "NORMAL"
+        },
+        "LDL Cholesterol": {
+          "value": 158.0,
+          "unit": "mg/dL",
+          "severity": "ELEVATED"
+        },
+        "Triglycerides": {
+          "value": 225.0,
+          "unit": "mg/dL",
+          "severity": "ELEVATED"
+        }
+      }
+    },
+    "report_03_thyroid_photo.jpg": {
+      "type": "scanned_photo",
+      "category": "Thyroid Profile",
+      "date": "12-10-2026",
+      "expected_status": "NEEDS_REVIEW",
+      "expected_biomarkers": {
+        "TSH": {
+          "value": 6.85,
+          "unit": "uIU/mL",
+          "severity": "ELEVATED"
+        },
+        "Free T4": {
+          "value": 1.1,
+          "unit": "ng/dL",
+          "severity": "NORMAL"
+        }
+      }
+    },
+    "report_04_cbc_skewed_photo.jpg": {
+      "type": "skewed_photo",
+      "category": "Complete Blood Count",
+      "date": "08-10-2026",
+      "expected_status": "NEEDS_REVIEW",
+      "expected_biomarkers": {
+        "Hemoglobin": {
+          "value": 11.2,
+          "unit": "g/dL",
+          "severity": "LOW"
+        },
+        "Total WBC Count": {
+          "value": 7200.0,
+          "unit": "cells/mcL",
+          "severity": "NORMAL"
+        },
+        "Platelet Count": {
+          "value": 280000.0,
+          "unit": "cells/mcL",
+          "severity": "NORMAL"
+        }
+      }
+    },
+    "report_05_cardiac_critical.pdf": {
+      "type": "digital_pdf",
+      "category": "Cardiac Biomarkers",
+      "date": "13-10-2026",
+      "expected_status": "NEEDS_REVIEW",
+      "expected_biomarkers": {
+        "Troponin I": {
+          "value": 4.8,
+          "unit": "ng/mL",
+          "severity": "CRITICAL"
+        }
+      },
+      "injection_attempt": true
+    }
+  },
+  "bad_inputs": {
+    "bad_01_blank_page.pdf": {
+      "expected_result": "FAILED",
+      "reason": "empty_document"
+    },
+    "bad_02_rotated_photo.jpg": {
+      "expected_result": "NEEDS_REVIEW_OR_HANDLED",
+      "reason": "rotated_image"
+    },
+    "bad_03_password_protected.pdf": {
+      "expected_result": "FAILED",
+      "reason": "encrypted_pdf"
+    },
+    "bad_04_oversized_21pages.pdf": {
+      "expected_result": "FAILED",
+      "reason": "exceeds_20_pages"
+    },
+    "bad_05_non_medical_image.jpg": {
+      "expected_result": "NEEDS_REVIEW",
+      "reason": "no_medical_tokens"
+    }
+  }
+}

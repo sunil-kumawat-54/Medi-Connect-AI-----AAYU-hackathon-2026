@@ -1,0 +1,8 @@
+.expo/
+dist/
+web-build/
+node_modules/
+.env
+.env.local
+dev_secret.json
+.demo_secret.txt

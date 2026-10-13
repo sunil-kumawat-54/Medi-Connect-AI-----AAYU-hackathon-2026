@@ -1,0 +1,207 @@
+{
+  "overall_accuracy_percent": 100.0,
+  "total_fields_evaluated": 36,
+  "total_fields_correct": 36,
+  "per_file": {
+    "report_01_metabolic.pdf": {
+      "type": "digital_pdf",
+      "accuracy": 100.0,
+      "fields_matched": "6/6",
+      "ocr_confidence": 99.5,
+      "time_ms": 8.9,
+      "biomarkers_extracted": 2,
+      "unparsed_count": 1,
+      "grounding_verified": true,
+      "injection_neutralized": true,
+      "field_details": [
+        {
+          "field": "Fasting Blood Glucose",
+          "expected_val": 142.0,
+          "actual_val": 142.0,
+          "val_match": true,
+          "expected_sev": "ELEVATED",
+          "actual_sev": "ELEVATED",
+          "sev_match": true
+        },
+        {
+          "field": "HbA1c Glycated Hgb",
+          "expected_val": 7.8,
+          "actual_val": 7.8,
+          "val_match": true,
+          "expected_sev": "ELEVATED",
+          "actual_sev": "ELEVATED",
+          "sev_match": true
+        }
+      ]
+    },
+    "report_02_lipid.pdf": {
+      "type": "digital_pdf",
+      "accuracy": 100.0,
+      "fields_matched": "12/12",
+      "ocr_confidence": 99.5,
+      "time_ms": 2.3,
+      "biomarkers_extracted": 5,
+      "unparsed_count": 1,
+      "grounding_verified": true,
+      "injection_neutralized": true,
+      "field_details": [
+        {
+          "field": "Total Cholesterol",
+          "expected_val": 245.0,
+          "actual_val": 245.0,
+          "val_match": true,
+          "expected_sev": "ELEVATED",
+          "actual_sev": "ELEVATED",
+          "sev_match": true
+        },
+        {
+          "field": "HDL Cholesterol",
+          "expected_val": 42.0,
+          "actual_val": 42.0,
+          "val_match": true,
+          "expected_sev": "NORMAL",
+          "actual_sev": "NORMAL",
+          "sev_match": true
+        },
+        {
+          "field": "LDL Cholesterol",
+          "expected_val": 158.0,
+          "actual_val": 158.0,
+          "val_match": true,
+          "expected_sev": "ELEVATED",
+          "actual_sev": "ELEVATED",
+          "sev_match": true
+        },
+        {
+          "field": "Triglycerides",
+          "expected_val": 225.0,
+          "actual_val": 225.0,
+          "val_match": true,
+          "expected_sev": "ELEVATED",
+          "actual_sev": "ELEVATED",
+          "sev_match": true
+        }
+      ]
+    },
+    "report_03_thyroid_photo.jpg": {
+      "type": "scanned_photo",
+      "accuracy": 100.0,
+      "fields_matched": "6/6",
+      "ocr_confidence": 82.3,
+      "time_ms": 5171.0,
+      "biomarkers_extracted": 3,
+      "unparsed_count": 2,
+      "grounding_verified": true,
+      "injection_neutralized": true,
+      "field_details": [
+        {
+          "field": "TSH",
+          "expected_val": 6.85,
+          "actual_val": 6.85,
+          "val_match": true,
+          "expected_sev": "ELEVATED",
+          "actual_sev": "ELEVATED",
+          "sev_match": true
+        },
+        {
+          "field": "Free T4",
+          "expected_val": 1.1,
+          "actual_val": 1.1,
+          "val_match": true,
+          "expected_sev": "NORMAL",
+          "actual_sev": "NORMAL",
+          "sev_match": true
+        }
+      ]
+    },
+    "report_04_cbc_skewed_photo.jpg": {
+      "type": "skewed_photo",
+      "accuracy": 100.0,
+      "fields_matched": "9/9",
+      "ocr_confidence": 82.9,
+      "time_ms": 4852.3,
+      "biomarkers_extracted": 5,
+      "unparsed_count": 1,
+      "grounding_verified": true,
+      "injection_neutralized": true,
+      "field_details": [
+        {
+          "field": "Hemoglobin",
+          "expected_val": 11.2,
+          "actual_val": 11.2,
+          "val_match": true,
+          "expected_sev": "LOW",
+          "actual_sev": "LOW",
+          "sev_match": true
+        },
+        {
+          "field": "Total WBC Count",
+          "expected_val": 7200.0,
+          "actual_val": 7200.0,
+          "val_match": true,
+          "expected_sev": "NORMAL",
+          "actual_sev": "NORMAL",
+          "sev_match": true
+        },
+        {
+          "field": "Platelet Count",
+          "expected_val": 280000.0,
+          "actual_val": 280000.0,
+          "val_match": true,
+          "expected_sev": "NORMAL",
+          "actual_sev": "NORMAL",
+          "sev_match": true
+        }
+      ]
+    },
+    "report_05_cardiac_critical.pdf": {
+      "type": "digital_pdf",
+      "accuracy": 100.0,
+      "fields_matched": "3/3",
+      "ocr_confidence": 99.5,
+      "time_ms": 5.3,
+      "biomarkers_extracted": 1,
+      "unparsed_count": 2,
+      "grounding_verified": true,
+      "injection_neutralized": true,
+      "field_details": [
+        {
+          "field": "Troponin I",
+          "expected_val": 4.8,
+          "actual_val": 4.8,
+          "val_match": true,
+          "expected_sev": "CRITICAL",
+          "actual_sev": "CRITICAL",
+          "sev_match": true
+        }
+      ]
+    }
+  },
+  "bad_inputs": {
+    "bad_01_blank_page.pdf": {
+      "expected": "FAILED",
+      "actual": "NEEDS_REVIEW (No medical tokens detected)",
+      "non_crashing": true
+    },
+    "bad_02_rotated_photo.jpg": {
+      "expected": "NEEDS_REVIEW_OR_HANDLED",
+      "actual": "NEEDS_REVIEW (No medical tokens detected)",
+      "non_crashing": true
+    },
+    "bad_03_password_protected.pdf": {
+      "expected": "FAILED",
+      "actual": "FAILED (Clean rejection: Document is encrypted or password-protected.)",
+      "non_crashing": true
+    },
+    "bad_04_oversized_21pages.pdf": {
+      "expected": "FAILED",
+      "actual": "FAILED (Clean rejection: Document has 21 pages, exceeding the 20-page safety limit.)",
+      "non_crashing": true
+    },
+    "bad_05_non_medical_image.jpg": {
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW (No medical tokens detected)",
+      "non_crashing": true
+    }
+  }
+}
